@@ -1,0 +1,6 @@
+[[plugins]]
+repo = 'Shougo/dein.vim'
+repo = 'Shougo/vimproc.vim'
+build = 'make'
+repo = 'Shougo/neosnippet-snippets'
+repo = 'tpope/vim-surround'
