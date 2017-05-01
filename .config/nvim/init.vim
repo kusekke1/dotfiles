@@ -77,25 +77,13 @@ set shiftwidth=4
 noremap ; :
 noremap : ;
 
-" 入力モードでのカーソル移動
+" Emacsのキーバインドに対応
 inoremap <C-n> <Down>
 inoremap <C-p> <Up>
 inoremap <C-b> <Left>
 inoremap <C-f> <Right>
 inoremap <C-d> <Backspace>
-
-" 日本語入力がオンのままでも使えるコマンド(Enterキーは必要)
-nnoremap あ a
-nnoremap い i
-nnoremap う u
-nnoremap お o
-nnoremap っd dd
-nnoremap っy yy
-
-" 日本語入力切り替え
-" 挿入モード終了時にIME状態を保存しない
-inoremap <silent> <ESC> <ESC>
-inoremap <silent> <C-[> <ESC>
-
-" 「日本語入力固定モード」切替
-inoremap <silent> <C-j> <C-^>
+imap <C-k> <ESC>d$i
+imap <C-y> <ESC>pi
+imap <C-a>  <Home>
+imap <C-e>  <End>
