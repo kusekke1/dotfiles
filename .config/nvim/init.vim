@@ -82,7 +82,7 @@ inoremap <C-n> <Down>
 inoremap <C-p> <Up>
 inoremap <C-b> <Left>
 inoremap <C-f> <Right>
-inoremap <C-d> <Backspace>
+inoremap <C-d> <DEL>
 imap <C-k> <ESC>d$i
 imap <C-y> <ESC>pi
 imap <C-a>  <Home>
