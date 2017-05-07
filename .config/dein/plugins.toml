@@ -1,6 +1,19 @@
 [[plugins]]
 repo = 'Shougo/dein.vim'
+
+[[plugins]]
 repo = 'Shougo/vimproc.vim'
-build = 'make'
+
+[[plugins]]
 repo = 'Shougo/neosnippet-snippets'
+
+[[plugins]]
+repo = 'Shougo/neocomplete.vim'
+
+[[plugins]]
 repo = 'tpope/vim-surround'
+
+
+[[plugins]] # Codic
+repo = 'koron/codic-vim'
+on_cmd = 'Codic'

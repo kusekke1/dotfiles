@@ -87,3 +87,7 @@ imap <C-k> <ESC>d$i
 imap <C-y> <ESC>pi
 imap <C-a>  <Home>
 imap <C-e>  <End>
+
+syntax enable
+let g:hybrid_use_iTerm_colors = 1
+colorscheme molokai
