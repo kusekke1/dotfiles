@@ -90,4 +90,4 @@ imap <C-e>  <End>
 
 syntax enable
 let g:hybrid_use_iTerm_colors = 1
-colorscheme molokai
+colorscheme neodark

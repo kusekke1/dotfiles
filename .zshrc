@@ -82,7 +82,7 @@ zstyle ':completion:*' list-colors \
 
 # [ Alias_Setting ] {{{
 # =====================
-alias v='vim'
+alias v='nvim'
 alias e='emacs'
 alias gvim='open -a MacVim'
 # alias vim='/usr/local/Cellar/vim/HEAD/bin/vim'
