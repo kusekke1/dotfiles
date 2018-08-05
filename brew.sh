@@ -13,6 +13,8 @@ brew install git
 brew install emacs
 brew install vim
 brew install lua
+brew install rbenv
+brew install nvim
 
 exit 0
 
