@@ -31,3 +31,10 @@
 システム設定 > ログインユーザー 
  
 `/usr/local/bin/zsh`
+
+## nvimの設定
+
+### dein.vim
+
+1. `curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh`
+1. `sh installer.sh`

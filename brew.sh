@@ -21,7 +21,7 @@ exit 0
 brew install caskroom/cask/brew-cask
 
 brew cask install iterm2
-brew cask install google-japanese-eme
+brew cask install google-japanese-ime
 brew cask install sourcetree
 brew cask install skitch
 brew cask install qlcolorcode
