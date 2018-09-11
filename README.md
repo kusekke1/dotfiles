@@ -49,3 +49,8 @@
 1. https://chrome.google.com/webstore/detail/the-qr-code-extension/oijdcdmnjjgnnhgljmhkjlablaejfeeb
 1. https://wappalyzer.com/
 1. https://chrome.google.com/webstore/detail/panda-5-news-inspiration/haafibkemckmbknhfkiiniobjpgkebko
+
+## スクショの保存先変更
+
+1. `defaults write com.apple.screencapture location ~/_screenshot/`
+1. `killall SystemUIServer`
