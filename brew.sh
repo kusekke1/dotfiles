@@ -1,22 +1,22 @@
 #!bin/sh
 
-export HOMEBREW_CASK_OPTS="--appdir=/Applications"
-
-brew install nodebrew
-brew install tree
-brew install pyenv
-brew install curl
-brew install wget
-brew install zsh
-brew install zsh-completions
-brew install git
-brew install emacs
-brew install vim
-brew install lua
-brew install rbenv
-brew install nvim
-
-exit 0
+# export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+# 
+# brew install nodebrew
+# brew install tree
+# brew install pyenv
+# brew install curl
+# brew install wget
+# brew install zsh
+# brew install zsh-completions
+# brew install git
+# brew install emacs
+# brew install vim
+# brew install lua
+# brew install rbenv
+# brew install nvim
+# 
+# exit 0
 
 brew install caskroom/cask/brew-cask
 
@@ -56,3 +56,6 @@ brew cask install qlstephen
 brew cask install rambox 
 brew cask install taskr 
 brew cask install xmind
+brew cask install zoomus
+brew cask install sequel-pro
+brew cask install toggl
