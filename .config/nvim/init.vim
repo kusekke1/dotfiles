@@ -73,9 +73,9 @@ set expandtab
 set tabstop=4
 set shiftwidth=4
 
-";でコマンドモードになるように
-noremap ; :
-noremap : ;
+"jjでescする
+inoremap <silent> jj <ESC>
+inoremap <silent> っj <ESC>
 
 " Emacsのキーバインドに対応
 inoremap <C-n> <Down>

@@ -271,3 +271,6 @@ bindkey -v
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
+
+#grepコマンドの色付け
+export GREP_OPTIONS='--color=always'
