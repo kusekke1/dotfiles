@@ -17,8 +17,6 @@ export PATH="/usr/local/sbin:$PATH"
 export PATH="$HOME/.bin:$PATH"
 export PATH="$HOME/.tmux/bin:$PATH"
 export PATH="$HOME/.tmux/plugins/bin:$PATH"
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init - zsh)"
 
 export BROWSER=w3m
 export EDITOR=vim
@@ -274,3 +272,13 @@ eval "$(pyenv init -)"
 
 #grepコマンドの色付け
 export GREP_OPTIONS='--color=always'
+
+#Flutter
+export PATH=$PATH:"$HOME/flutter/bin"
+
+#Go
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+export GOROOT=/usr/local/Cellar/go/1.15.2/libexec
+export GOTOOLDIR=/usr/local/Cellar/go/1.15.2/libexec/pkg/tool/darwin_amd64
+export PATH=$PATH:$GOPATH/bin
